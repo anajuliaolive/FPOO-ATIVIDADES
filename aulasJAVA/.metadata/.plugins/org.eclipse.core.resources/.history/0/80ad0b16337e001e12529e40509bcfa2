@@ -1,0 +1,40 @@
+package viagem.model;
+
+public class localidades {
+	//atributos
+	    private String Brasil;
+	    private String Itália;
+		private int DiaEntrada;
+		private int DiaSaida;
+		public String getBrasil() {
+			return Brasil;
+		}
+		public void setBrasil(String brasil) {
+			Brasil = brasil;
+		}
+		public String getItália() {
+			return Itália;
+		}
+		public void setItália(String itália) {
+			Itália = itália;
+		}
+		public int getDiaEntrada() {
+			return DiaEntrada;
+		}
+		public void setDiaEntrada(int diaEntrada) {
+			DiaEntrada = diaEntrada;
+		}
+		public int getDiaSaida() {
+			return DiaSaida;
+		}
+		public void setDiaSaida(int diaSaida) {
+			DiaSaida = diaSaida;
+		}
+		public static void add(localidades var_local) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		
+
+}
